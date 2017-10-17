@@ -1,0 +1,20 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:ConfirmRegistration3dsResponse>
+         <!--Optional:-->
+         <tem:ConfirmRegistration3dsResult>
+            <tem:Id>?</tem:Id>
+            <tem:Result>?</tem:Result>
+            <tem:ConfirmationMode>?</tem:ConfirmationMode>
+            <!--Optional:-->
+            <tem:HoldInfo>
+               <tem:MaxAttempts>?</tem:MaxAttempts>
+               <tem:SumMin>?</tem:SumMin>
+               <tem:SumMax>?</tem:SumMax>
+            </tem:HoldInfo>
+            <tem:TestPayAmount>?</tem:TestPayAmount>
+         </tem:ConfirmRegistration3dsResult>
+      </tem:ConfirmRegistration3dsResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,27 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:GetCardRegistrationStateResponse>
+         <!--Optional:-->
+         <tem:GetCardRegistrationStateResult>
+            <!--Optional:-->
+            <tem:Ctn>?</tem:Ctn>
+            <!--Optional:-->
+            <tem:Bin>?</tem:Bin>
+            <!--Optional:-->
+            <tem:Tail>?</tem:Tail>
+            <tem:ResultCode>?</tem:ResultCode>
+            <!--Optional:-->
+            <tem:ResultDescription>?</tem:ResultDescription>
+            <!--Optional:-->
+            <tem:Autopayment>
+               <!--Optional:-->
+               <tem:Ctn>?</tem:Ctn>
+               <tem:ResultCode>?</tem:ResultCode>
+               <!--Optional:-->
+               <tem:ResultDescription>?</tem:ResultDescription>
+            </tem:Autopayment>
+         </tem:GetCardRegistrationStateResult>
+      </tem:GetCardRegistrationStateResponse>
+   </soapenv:Body>
+</soapenv:Envelope>
